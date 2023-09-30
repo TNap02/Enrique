@@ -14,8 +14,10 @@
 		577755722AC758C8006C8719 /* EnriqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577755712AC758C8006C8719 /* EnriqueTests.swift */; };
 		5777557C2AC758C8006C8719 /* EnriqueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5777557B2AC758C8006C8719 /* EnriqueUITests.swift */; };
 		5777557E2AC758C8006C8719 /* EnriqueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5777557D2AC758C8006C8719 /* EnriqueUITestsLaunchTests.swift */; };
-		5777558B2AC75F8D006C8719 /* Side Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5777558A2AC75F8D006C8719 /* Side Menu.swift */; };
 		5777558D2AC79BFA006C8719 /* AdvancedSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5777558C2AC79BFA006C8719 /* AdvancedSettings.swift */; };
+		577755912AC7C1A6006C8719 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577755902AC7C1A6006C8719 /* SideMenu.swift */; };
+		577755932AC7D7FF006C8719 /* HowTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577755922AC7D7FF006C8719 /* HowTo.swift */; };
+		577755952AC7D82C006C8719 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577755942AC7D82C006C8719 /* About.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +48,10 @@
 		577755772AC758C8006C8719 /* EnriqueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnriqueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5777557B2AC758C8006C8719 /* EnriqueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnriqueUITests.swift; sourceTree = "<group>"; };
 		5777557D2AC758C8006C8719 /* EnriqueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnriqueUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		5777558A2AC75F8D006C8719 /* Side Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Side Menu.swift"; sourceTree = "<group>"; };
 		5777558C2AC79BFA006C8719 /* AdvancedSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSettings.swift; sourceTree = "<group>"; };
+		577755902AC7C1A6006C8719 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		577755922AC7D7FF006C8719 /* HowTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowTo.swift; sourceTree = "<group>"; };
+		577755942AC7D82C006C8719 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +104,12 @@
 			children = (
 				577755602AC758C6006C8719 /* EnriqueApp.swift */,
 				577755622AC758C6006C8719 /* ContentView.swift */,
-				5777558A2AC75F8D006C8719 /* Side Menu.swift */,
 				577755642AC758C8006C8719 /* Assets.xcassets */,
 				577755662AC758C8006C8719 /* Preview Content */,
+				577755902AC7C1A6006C8719 /* SideMenu.swift */,
 				5777558C2AC79BFA006C8719 /* AdvancedSettings.swift */,
+				577755922AC7D7FF006C8719 /* HowTo.swift */,
+				577755942AC7D82C006C8719 /* About.swift */,
 			);
 			path = Enrique;
 			sourceTree = "<group>";
@@ -264,9 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5777558D2AC79BFA006C8719 /* AdvancedSettings.swift in Sources */,
-				5777558B2AC75F8D006C8719 /* Side Menu.swift in Sources */,
+				577755952AC7D82C006C8719 /* About.swift in Sources */,
 				577755632AC758C6006C8719 /* ContentView.swift in Sources */,
+				577755932AC7D7FF006C8719 /* HowTo.swift in Sources */,
 				577755612AC758C6006C8719 /* EnriqueApp.swift in Sources */,
+				577755912AC7C1A6006C8719 /* SideMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
